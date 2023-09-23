@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@deno/mod.js';
+import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@v0.1.0-deno/mod.js';
 ```
 
 #### iterMap( iterator, fcn\[, thisArg] )
@@ -171,7 +171,7 @@ var count = ctx.count;
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@deno/mod.js';
-import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@deno/mod.js';
+import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@v0.1.0-deno/mod.js';
 
 function scale( v ) {
     return v * 10.0;
