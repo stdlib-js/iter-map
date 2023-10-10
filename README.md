@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-map/tags). For example,
+
+```javascript
 import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@v0.1.1-deno/mod.js';
 ```
 
@@ -171,7 +176,7 @@ var count = ctx.count;
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@deno/mod.js';
-import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@v0.1.1-deno/mod.js';
+import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@deno/mod.js';
 
 function scale( v ) {
     return v * 10.0;
